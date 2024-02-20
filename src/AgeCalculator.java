@@ -43,6 +43,7 @@ public class AgeCalculator extends Application {
         HBox pickers = new HBox(10, datePicker, colorPicker, calculateButton);
         pickers.setAlignment(Pos.CENTER);
 
+
         VBox root = new VBox(20, pickers, message);
         root.setAlignment(Pos.CENTER);
         root.setStyle("-fx-background-color: blue");
